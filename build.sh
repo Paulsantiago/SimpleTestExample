@@ -10,6 +10,8 @@ cd ../xmc4800
 make
 cd ../xmc4800_dc
 make
+cd ../simpleTestP
+make
 cd ..
 cd ..
 

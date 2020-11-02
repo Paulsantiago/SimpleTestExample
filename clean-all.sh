@@ -12,6 +12,8 @@ cd ../xmc4800
 make clean
 cd ../xmc4800_dc
 make clean
+cd ../simpleTestP
+make clean
 cd ..
 cd ..
 
