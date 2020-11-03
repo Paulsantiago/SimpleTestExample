@@ -4,7 +4,7 @@
 # 'make'        build executable file 'mycc'
 # 'make clean'  removes all .o and executable files
 #
-message("cheking meps CMAKE")
+#message("cheking meps CMAKE")
 # define the C compiler to use
 CC = gcc
 
