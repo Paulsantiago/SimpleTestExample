@@ -19,7 +19,7 @@
 #include "ethercatmain.h"
 #include "ethercatconfig.h"
 #include "ethercat.h"
-
+#include "ethercattype.h"
 #include <inttypes.h>
 //#include "oshw/nicdrv.h"
 #include "wiznet_drv.h"
@@ -33,7 +33,8 @@ boolean needlf;
 volatile int wkc;
 boolean inOP;
 uint8 currentgroup = 0;
-
+boolean printSDO = FALSE;
+boolean printMAP = FALSE;
 void simpletest(char *ifname)
 {
     int i, j, oloop, iloop, chk;
