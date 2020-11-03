@@ -4,9 +4,9 @@ cd ../oshw
 make
 cd ../soem
 make
-cd ../test/simpleTest
+cd ../test/slaveInfo
 make
-cd ../slaveInfo
+cd ../simpleTest
 make
 cd ../xmc4800
 make
