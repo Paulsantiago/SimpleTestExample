@@ -69,6 +69,3 @@ $(MAIN): $(OBJS)
 
 clean:
 	$(RM) *.o *~ $(MAIN)
-
-
-# DO NOT DELETE THIS LINE -- make depend needs it
