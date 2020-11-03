@@ -45,7 +45,7 @@ typedef struct osal_timer
 } osal_timert;
 
 void osal_timer_start(osal_timert * self, uint32 timeout_us);
-//boolean osal_timer_is_expired(osal_timert * self);
+boolean osal_timer_is_expired(osal_timert * self);
 int osal_usleep(uint32 usec);
 ec_timet osal_current_time(void);
 void osal_time_diff(ec_timet *start, ec_timet *end, ec_timet *diff);
