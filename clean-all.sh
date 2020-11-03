@@ -6,9 +6,9 @@ cd ../oshw
 make clean
 cd ../soem
 make clean
-cd ../test/simpleTest
+cd ../test/slaveInfo
 make clean
-cd ../slaveInfo
+cd ../simpleTest
 make clean
 cd ../xmc4800
 make clean
