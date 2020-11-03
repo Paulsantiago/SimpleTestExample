@@ -32,7 +32,7 @@ LDLIBS +=-lwiznet_drv
 LDLIBS += $(shell /usr/xenomai/bin/xeno-config --skin=$(skin) --ldflags)
 	
 # define the C source files
-SRCS = simpleTest.cpp
+SRCS = simpleTest.c
 
 # define the C object files 
 #
