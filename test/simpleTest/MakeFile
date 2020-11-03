@@ -45,7 +45,7 @@ SRCS = simpleTest.c
 OBJS = $(SRCS:.c=.o)
   
 # define the executable file 
-MAIN = simpleTest
+MAIN = simpleTestexe
 
 #
 # The following part of the makefile is generic; it can be used to 
@@ -69,6 +69,3 @@ $(MAIN): $(OBJS)
 
 clean:
 	$(RM) *.o *~ $(MAIN)
-
-
-# DO NOT DELETE THIS LINE -- make depend needs it
