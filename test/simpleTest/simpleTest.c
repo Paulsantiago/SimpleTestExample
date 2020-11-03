@@ -21,8 +21,8 @@
 #include "ethercat.h"
 
 #include <inttypes.h>
-#include "oshw/nicdrv.h"
-#include "oshw/wiznet_drv.h"
+//#include "oshw/nicdrv.h"
+#include "wiznet_drv.h"
 
 #define EC_TIMEOUTMON 500
 
