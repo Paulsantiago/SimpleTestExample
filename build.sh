@@ -4,13 +4,13 @@ cd ../oshw
 make
 cd ../soem
 make
-cd ../test/slaveInfo
+cd ../test/simpleTest
+make
+cd ../slaveInfo
 make
 cd ../xmc4800
 make
 cd ../xmc4800_dc
-make
-cd ../simpleTest
 make
 cd ..
 cd ..
