@@ -77,19 +77,19 @@ void osal_timer_start (osal_timert * self, uint32 timeout_usec)
    self->stop_time.usec = stop_time.tv_usec;
 }
 
-boolean osal_timer_is_expired (const osal_timert * self)
-{
-   struct timeval current_time;
-   struct timeval stop_time;
-   int is_not_yet_expired;
+// boolean osal_timer_is_expired (const osal_timert * self)
+// {
+//    struct timeval current_time;
+//    struct timeval stop_time;
+//    int is_not_yet_expired;
 
-   osal_gettimeofday (&current_time, 0);
-   stop_time.tv_sec = self->stop_time.sec;
-   stop_time.tv_usec = self->stop_time.usec;
-   is_not_yet_expired = timercmp (&current_time, &stop_time, <);
+//    osal_gettimeofday (&current_time, 0);
+//    stop_time.tv_sec = self->stop_time.sec;
+//    stop_time.tv_usec = self->stop_time.usec;
+//    is_not_yet_expired = timercmp (&current_time, &stop_time, <);
 
-   return is_not_yet_expired == FALSE;
-}
+//    return is_not_yet_expired == FALSE;
+// }
 
 void *osal_malloc(size_t size)
 {
