@@ -6,8 +6,6 @@ cd ../soem
 make
 cd ../test/slaveInfo
 make
-cd ../simpleTest
-make
 cd ../xmc4800
 make
 cd ../xmc4800_dc
